@@ -1,5 +1,5 @@
 Blog::Application.routes.draw do
-  
+  #resources :comments  #removed since comments should only be accessed thorugh posts
 
   resources :posts do
     resources :comments
